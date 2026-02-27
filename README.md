@@ -10,7 +10,4 @@ graph TD
     
     E --> F[Selesai]
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#059669,stroke:#fff,stroke-width:2px,color:#fff
-    style J fill:#f9f,stroke:#333,stroke-width:2px
-    style G fill:#fef3c7,stroke:#d97706,stroke-width:2px```
+    style A fill:#f9f,stroke:#333,stroke-width:2px```
