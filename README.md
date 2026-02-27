@@ -5,17 +5,10 @@ graph TD
     B -- Ada --> C[Hitung Total & AI Audit]
     B -- Habis --> D[Notifikasi Stok Kosong]
     
-    C --> D[git commit -m 'Pesan Perubahan'<br/>'Local Repository']
-    D --> E[git push origin nama-branch]
+    C --> D[Terimakasih Sudah Berbelanja di Tempat Kami]
+    D --> E[Terimakasih Sudah Berbelanja di Tempat Kami]
     
-    E --> F[Buka GitHub: Create Pull Request]
-    F --> G{Review & Testing}
-    
-    G -- Perbaikan Diperlukan --> A
-    G -- Disetujui --> H[Merge Pull Request ke Main]
-    
-    H --> I[Update Lokal: git pull origin main]
-    I --> J[Selesai]
+    E --> F[Selesai]
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style H fill:#059669,stroke:#fff,stroke-width:2px,color:#fff
