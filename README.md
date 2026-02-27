@@ -1,11 +1,13 @@
 # Sukses-Makmur 
 ``` mermaid
 graph TD
-    A[Barang Dipilih] --> B{Cek Stok di Supabase}
-    B -- Ada --> C[Hitung Total & AI Audit]
-    B -- Habis --> D[Notifikasi Stok Kosong]
+    A[Selamat Datang di Toko Sukses Makmur]
+    B[Sedang Mencari Barang Apa Hari Ini?] 
+    C[Barang Dipilih] --> D{Cek Stok di Supabase}
+    D -- Ada --> E[Hitung Total & AI Audit]
+    D -- Habis --> F[Notifikasi Stok Kosong]
     
-    C --> D[Terimakasih Sudah Berbelanja di Tempat Kami]
-    D --> E[Selesai]
+    E --> G[Terimakasih Sudah Berbelanja di Tempat Kami]
+    G --> F[Selesai]
 
     style A fill:#f9f,stroke:#333,stroke-width:2px```
