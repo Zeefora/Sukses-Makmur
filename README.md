@@ -1,5 +1,6 @@
 # Sukses-Makmur 
-``` mermaid graph TD
+``` mermaid
+graph TD
     A[Mulai: Pengembangan Fitur Baru] --> B{Ada Perubahan Kode?}
     B -- Ya --> C[git add .<br/>'Staging Area']
     B -- Tidak --> A
