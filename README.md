@@ -1,5 +1,4 @@
-# Sukses-Makmur
-graph TD
+# Sukses-Makmur graph TD
     A[Mulai: Pengembangan Fitur Baru] --> B{Ada Perubahan Kode?}
     B -- Ya --> C[git add .<br/>'Staging Area']
     B -- Tidak --> A
